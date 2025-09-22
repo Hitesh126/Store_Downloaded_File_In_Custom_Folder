@@ -67,6 +67,8 @@ public class DownloadFileToCustomFolder4 {
 		} else {
 			System.err.println("Not able to download due to some error!!!");
 		}
+		
+		driver.quit();
 
 	}
 }
